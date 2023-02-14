@@ -1,0 +1,19 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+	"$basetexture" "models\survivors\racheldemoniqs\rachel_front_hair_no_alpha_base"
+$bumpmap "models\survivors\racheldemoniqs\n"
+$phongexponenttexture "models\survivors\racheldemoniqs\rachel_front_hair_spe"
+"$phongwarptexture" "models\survivors\racheldemoniqs\phongwarp_hair"
+	$alphatest	1
+	$AlphaTestReference "0.9"
+	$allowalphatocoverage 1
+	$nodecal 1
+	"$ambientocclusion" "0"
+"$lightwarptexture" "models\survivors\racheldemoniqs\alisa_head_wrp"
+}
+

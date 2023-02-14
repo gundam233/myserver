@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/levi/gear"
+	"$bumpmap" "models/custom/levi/gear_nrm"
+	$nodecal 1
+}

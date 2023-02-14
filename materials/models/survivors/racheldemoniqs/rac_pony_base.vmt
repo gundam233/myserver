@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+
+	"$basetexture" "models\survivors\racheldemoniqs\rac_pony_base"
+$bumpmap "models\survivors\racheldemoniqs\rac_pony_nrm"
+$phongexponenttexture "models\survivors\racheldemoniqs\rac_pony_spe"
+"$phongwarptexture" "models\survivors\racheldemoniqs\phongwarp_hair"
+	"$ambientocclusion" "0"
+	"$translucent" "1"
+	$allowalphatocoverage 1
+	$nodecal 1
+	"$phong" "1"
+	$phongexponent 12
+	"$phongboost"	"0.1"
+	"$phongalbedotint" 1
+	$phongfresnelranges "[.1 1 1]"
+"$lightwarptexture" "models\survivors\racheldemoniqs\alisa_head_wrp"
+}
+

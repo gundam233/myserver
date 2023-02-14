@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/re6l4d2/Sherry_WinterSnow/pl_earLight_BM"
+	"$surfaceprop" "Flesh"
+	"$nocull" 1
+	"$nodecal" 1
+	"$nolod" 1
+}
+// Advance params by Cra0kalo
+// Email me@cra0kalo.com for shader info and other improvements to the source game engine

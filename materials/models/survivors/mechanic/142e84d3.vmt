@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\survivors\mechanic/142e84d3"
+	"$bumpmap" "models\survivors\mechanic/flat2"
+	"$nocull" 1
+	"$alphatest" 1
+}

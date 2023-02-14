@@ -1,0 +1,16 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\survivors\racheldemoniqs\rachel_face_base"
+$bumpmap "models\survivors\racheldemoniqs\rachel_face_nrm_VLH2_PP1"
+$phongexponenttexture "models\survivors\racheldemoniqs\rachel_face_spe"
+$phong 1
+$phongboost ".6"
+$phongfresnelranges "[.07 .3 10]"
+$ambientocclusion 1
+$nocull 1
+"$nodecal" 1
+}

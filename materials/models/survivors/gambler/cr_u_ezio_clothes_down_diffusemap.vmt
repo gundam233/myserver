@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/gambler/CR_U_Ezio_Clothes_Down_DiffuseMap"
+	"$nocull" 1
+}

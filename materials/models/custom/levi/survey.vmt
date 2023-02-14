@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/levi/survey"
+	"$bumpmap" "models/custom/levi/survey_nrm"
+	$nodecal 1
+}

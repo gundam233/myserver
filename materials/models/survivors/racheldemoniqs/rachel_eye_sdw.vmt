@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/survivors/racheldemoniqs/rachel_eye_sdw"
+	"$nocull" 1
+	"$nodecal" 1
+	"$translucent" 1
+}

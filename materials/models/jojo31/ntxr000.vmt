@@ -1,0 +1,26 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\jojo31\ntxr0010"
+$bumpmap "models\jojo31\ntxr001"
+$halflambert "1"
+
+	"$lightwarptexture" "models\jojo31\basewarp"
+	
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost"	".1"
+	"$phongfresnelranges"	"[3 6.9 .1]"
+	"$phongalbedotint" "1"
+
+	"$rimlight" "1" 
+	"$rimlightexponent" "3" 
+	"$rimlightboost" "4" 
+	"$rimmask" 1
+	}
+
+}
+

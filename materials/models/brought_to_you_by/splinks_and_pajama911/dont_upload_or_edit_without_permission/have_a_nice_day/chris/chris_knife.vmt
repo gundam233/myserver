@@ -1,0 +1,13 @@
+vertexlitgeneric
+{
+$baseTexture "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Chris\chris_knife_color"
+$bumpmap "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Chris\chris_knife_normal"
+$phong 1
+$phongboost "1.5"
+$phongexponent 10
+$phongtint "[.85 .85 1]"
+$halflambert 0
+$phongfresnelranges "[.3 .65 30]"
+$ambientocclusion 1
+$diffuseexp "1.5"
+}

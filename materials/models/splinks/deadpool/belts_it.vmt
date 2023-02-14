@@ -1,0 +1,34 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "models\splinks\deadpool/Deadpool_BM"
+	"$bumpmap" "models\splinks\deadpool/Deadpool_NM"
+	"$phongexponenttexture" "models\splinks\deadpool/deadpool_PM"
+	"$lightwarptexture" "models\survivors\coach\coach_head_wrp"
+
+
+	"$nocull" "1"
+
+
+ 	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	"1.5"
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$phongalbedotint" "1"
+	"$nocull" 1
+"$rimlight" "1" 
+"$rimlightexponent" "0.5" 
+"$rimlightboost" "1.5" 
+"$rimmask" 1
+
+
+
+
+	"$detail"					"models\splinks\deadpool/detail_leather"
+	"$detailscale" "41"
+	"$detailblendfactor" "0.6"
+	"$detailblendmode" "0"
+}

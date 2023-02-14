@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Survivors\Master_chief/masterchief_base"
+	"$bumpmap" "models\Survivors\Master_chief/SpartanNormalST"
+	"$model" "1"
+	"$selfillum" "1"
+	"$halflambert" "1"
+	"$surfaceprop" "metal"
+	"$normalmapalphaenvmapmask" 1
+	
+	"$phong" "1"
+	//"$phongexponenttexture" "models\Survivors\Master_chief/masterchief_base_exponent"
+	"$phongexponent" "15"
+	
+	"$phongboost" "7"	
+	//"$lightwarptexture" "models\Survivors\Master_chief/h3_lightwarp"
+	"$phongfresnelranges"	"[0.04 0.4 0.5]"
+	
+	//"$rimlight"	"1"
+	//"$rimlightexponent" "4"
+
+vertexlitgeneric_dx8
+{
+$envmaptint "[.05 .03 .01]"
+$envmap env_cubemap
+	$envmapmask "models\Survivors\Master_chief/masterchief_base"
+}
+vertexlitgeneric_HDR_dx8
+{
+$envmaptint "[.22 .12 .07]"
+$envmap env_cubemap
+	$envmapmask "models\Survivors\Master_chiefmasterchief_base"
+}
+$halflambert 1
+$phong 0
+"GPU>=2?$phong" 1
+}

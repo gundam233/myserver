@@ -1,0 +1,74 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/re6l4d2/Sherry_WinterSnow/pl0500_25_stole_BM"
+		// 	Bump map
+	"$bumpmap"	"models/re6l4d2/Sherry_WinterSnow/pl0500_25_stole_NM"	
+	
+	// Bump map has the specular map in the alpha channel
+	"$normalmapalphaenvmapmask" 1	
+	
+	// ------------------------------------
+	// Specular lighting and reflections
+	// ------------------------------------
+//	Reflection environment map 
+	//"$envmap"	"env_cubemap"		
+
+
+	
+// Specular tint
+	"$envmaptint" "[0.1 0.1 0.1]"
+
+// Specular contrast
+	"$envmapcontrast"	"0"
+	
+// Specular saturation	
+	"$envmapsaturation"	"1"
+	
+// Degree to which Fresnel should be applied to env map
+	"$envmapfresnel"	"0"
+	
+	// ------------------------------------
+	// Phong
+	// ------------------------------------	
+// Phong enabled?
+	"$phong" "1"
+	
+// Phong exponent for local specular lights	
+	"$phongexponent" "1"
+	
+// Phong tint for local specular lights
+	"$phongtint" "[1 1 1]"
+	
+// Apply tint by albedo (controlled by spec exponent texture)
+	"$phongalbedotint"	"1"
+	
+
+	
+// Parameters for remapping fresnel output
+	"$phongfresnelranges" "[0 0.5 1]"
+	
+
+	
+// Indicates that there is no normal map and that the phong mask is in base alpha	
+	"$basemapalphaphongmask"	"0"
+	
+// Invert the phong mask (0=full phong, 1=no phong)
+	"$invertphongmask"	"0"
+	
+	// ------------------------------------
+	// Rim lighting 
+	// ------------------------------------		
+// Rim enabled?
+	"$rimlight" "1"	
+	
+// Exponent for rim lights	
+	"$rimlightexponent" "4" 
+
+
+	
+	// Halflambert	
+	"$halflambert" "1"	
+	"$surfaceprop" "Flesh"
+	"$nodecal" 1
+	"$nolod" 1
+}

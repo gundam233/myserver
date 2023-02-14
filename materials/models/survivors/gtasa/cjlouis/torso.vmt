@@ -1,0 +1,18 @@
+patch
+{
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\survivors\gtasa\cjlouis\vest"
+$bumpmap "models\survivors\gtasa\cjlouis\vest_normal"
+$phong 1
+$phongboost "0.1"
+$phongexponent 7
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+$lightwarptexture "models\survivors\gambler\gambler_head_wrp"
+}
+}

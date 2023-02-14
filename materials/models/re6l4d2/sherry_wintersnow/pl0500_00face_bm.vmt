@@ -1,0 +1,92 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/re6l4d2/Sherry_WinterSnow/pl0500_00face_BM"
+	// ------------------------------------
+	// Bump Map and normal maps
+	// ------------------------------------
+	
+// 	Bump map
+	"$bumpmap"	"models/re6l4d2/Sherry_WinterSnow/pl0500_00face_NM"	
+
+// Bump map has the specular map in the alpha channel
+	"$normalmapalphaenvmapmask" 1	
+
+
+	
+	// ------------------------------------
+	// Specular lighting and reflections
+	// ------------------------------------
+//	Reflection environment map 
+	"$envmap"	"env_cubemap"		
+	
+
+	
+// Specular texcoord transform		
+	"$envmapmasktransform"	"center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	
+// Specular tint
+	"$envmaptint" "[0.4 0.4 0.4]"
+
+// Specular contrast
+	"$envmapcontrast"	"0"
+	
+// Specular saturation	
+	"$envmapsaturation"	"1"
+	
+// Degree to which Fresnel should be applied to env map
+	"$envmapfresnel"	"0"
+	
+	// ------------------------------------
+	// Phong
+	// ------------------------------------	
+// Phong enabled?
+	"$phong" "1"
+	
+// Phong exponent for local specular lights	
+	"$phongexponent" "1"
+	
+// Phong tint for local specular lights
+	"$phongtint" "[0.5 0.5 0.5]"
+	
+// Apply tint by albedo (controlled by spec exponent texture)
+	"$phongalbedotint"	"1"
+
+	
+// Parameters for remapping fresnel output
+	"$phongfresnelranges" "[0 0.5 1]"
+	
+// Phong overbrightening factor (specular mask channel should be authored to account for this)	
+	"$phongboost"	"0.3"
+	
+	
+// Indicates that there is no normal map and that the phong mask is in base alpha	
+	"$basemapalphaphongmask"	"0"
+	
+// Invert the phong mask (0=full phong, 1=no phong)
+	"$invertphongmask"	"0"
+	
+	// ------------------------------------
+	// Rim lighting 
+	// ------------------------------------		
+// Rim enabled?
+	"$rimlight" "1"	
+	
+// Exponent for rim lights	
+	"$rimlightexponent" "4" 
+
+// Boost for rim lights
+	"$rimlightboost" "1" 
+	
+// Indicates whether or not to use alpha channel of exponent texture to mask the rim term
+	"$rimmask" "1" 
+	
+// Halflambert	
+	"$halflambert" "1"
+	
+	"$surfaceprop" "Flesh"
+	"$nodecal" 1
+	"$nolod" 1
+	"$nocull" 1
+}
+// Advance params by Cra0kalo
+// Email me@cra0kalo.com for shader info and other improvements to the source game engine

@@ -1,0 +1,15 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+
+$baseTexture "models\survivors\racheldemoniqs\ring_b"
+$phong 1
+$phongboost ".6"
+$phongfresnelranges "[.07 .3 10]"
+$ambientocclusion 1
+$nocull 1
+"$nodecal" 1
+}

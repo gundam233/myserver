@@ -1,0 +1,13 @@
+"LightmappedGeneric"
+{
+$baseTexture "models\jojo3\ntxr001"
+$bumpmap "models\jojo3\ntxr001"
+
+$phong 90
+$phongboost 90
+$phongexponent 8
+$phongtint "[.20 .20 1]"
+$halflambert 0
+$phongfresnelranges "[.89 .65 30]"
+
+}

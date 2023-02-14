@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\splinks\deadpool/Deadpool_BM"
+	"$bumpmap" "models\splinks\deadpool/Deadpool_NM"
+	"$phongfresnelranges"	"[ .3 1.2 3]"
+	"$phong" "1"
+	"$phongexponent"				"34"
+	"$phongboost"					"0.5"
+
+	"$lightwarptexture" "models\survivors\gambler\gambler_head_wrp"
+
+	"$rimlight" "1" 
+	"$rimlightexponent" "4" 
+	"$rimlightboost" "0.8" 
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.008 0.008 0.008]"
+	"$normalmapalphaenvmapmask" 1
+
+
+
+
+	"$detail"					"models\splinks\deadpool/detail_hair"
+	"$detailscale" "13"
+	"$detailblendfactor" "1.6"
+	"$detailblendmode" "0"
+}

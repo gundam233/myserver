@@ -1,0 +1,39 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	"$basetexture" "models\splinks\deadpool/Deadpool_BM"
+	"$bumpmap" "models\splinks\deadpool/Deadpool_NM"
+	"$phongexponenttexture" "models\splinks\deadpool/deadpool_PM"
+	"$halflambert" "1"
+	"$nocull" "1" 
+	"$alphatest" "1" 
+
+
+
+	"$phong" "1"
+	"$phongexponent" 4
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[ .3 1.2 3]"
+
+
+
+	"$rimlight" "1" 
+	"$rimlightexponent" "4" 
+	"$rimlightboost" "0.2" 
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.008 0.008 0.008]"
+	"$normalmapalphaenvmapmask" 1
+
+
+
+
+	"$detail"					"models\splinks\deadpool/detail_carbonfiber"
+	"$detailscale" "10"
+	"$detailblendfactor" "0.5"
+	"$detailblendmode" "0"
+}

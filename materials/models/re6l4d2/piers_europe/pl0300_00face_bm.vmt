@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/re6l4d2/piers_europe/pl0300_00Face_BM"
+	"$bumpmap" "models/re6l4d2/piers_europe/pl0300_00Face_NM"
+	$phong 1
+//$phongboost "2.5"
+//$phongexponent 5
+//$phongtint "[.85 .85 1]"
+$halflambert 0
+//$phongfresnelranges "[.3 .65 30]"
+$ambientocclusion 1
+
+
+	"$nodecal" 1
+$diffuseexp "1.5"
+}

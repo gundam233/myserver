@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+$basetexture "Models\Brought_To_You_By\Splinks_And_Pajama911\dont_upload_or_edit_without_permission\Have_A_Nice_Day\Chris\chris_hair10"
+$halflambert 0
+$alphatest 1
+$nocull 1
+$nodecal 1
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\Survivors\Master_chief/masterchief_base"
+	"$bumpmap" "models\Survivors\Master_chief/SpartanNormalST"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 1
+	"$envmapsaturation" "[.7 .7 .7]"
+	"$envmaptint" 1
+	"$halflambert" 1
+}

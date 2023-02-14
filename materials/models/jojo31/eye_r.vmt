@@ -1,0 +1,6 @@
+"eyes"
+{
+	"$basetexture" "models/jojo31/eye_r"
+	"$iris" "models/jojo31/eye_r"
+	"$halflambert" 1
+}
