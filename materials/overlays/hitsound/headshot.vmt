@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "Overlays/hitsound/headshot"
-	"$REFRACTTINT" "{128 128 128}"
-	"$additive" "1"
-	//"$translucent" 1
-	
-}

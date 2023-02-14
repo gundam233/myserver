@@ -1,8 +1,0 @@
-DecalModulate
-{
-$basetexture "graffiti/is_this_a_dream"
-$surfaceprop default
-$decal 1
-$vertexcolor 1
-$vertexalpha 1
-}
